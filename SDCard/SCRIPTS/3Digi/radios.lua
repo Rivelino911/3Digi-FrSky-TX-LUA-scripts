@@ -46,6 +46,7 @@ local supportedRadios =
     ["x9e-simu"] = supportedPlatforms.x9,
     ["x10-simu"] = supportedPlatforms.horus,
     ["x12s-simu"] = supportedPlatforms.horus,
+    ["tx16s-simu"] = supportedPlatforms.horus,
     ["x7"] = supportedPlatforms.x7,
     ["x7s"] = supportedPlatforms.x7,
     ["xlite"] = supportedPlatforms.x7,
@@ -54,6 +55,7 @@ local supportedRadios =
     ["x9e"] = supportedPlatforms.x9,
     ["x10"] = supportedPlatforms.horus,
     ["x12s"] = supportedPlatforms.horus,
+    ["tx16s"] = supportedPlatforms.horus,
 }
 
 local ver, rad, maj, min, rev = getVersion()
